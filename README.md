@@ -6,19 +6,19 @@ step 1:Represent the graph using an adjacency list (dictionary or list of lists)
 
 step 2:Create a helper function topologicalSortUtil(v, visited, stack) to:
 
-    a]Mark the current vertex v as visited.
+ a]Mark the current vertex v as visited.
 
-    b]Recursively call the function for all adjacent (unvisited) vertices.
+ b]Recursively call the function for all adjacent (unvisited) vertices.
 
-    c]Push the vertex to a stack after visiting its neighbors.
+ c]Push the vertex to a stack after visiting its neighbors.
 
 step 3:In the main function:
 
-    a]Initialize a visited list and an empty stack.
+ a]Initialize a visited list and an empty stack.
 
-    b]Call the helper function for every vertex that hasn't been visited.
+ b]Call the helper function for every vertex that hasn't been visited.
 
-    c]Once done, reverse and print the stack as the topological sort result.
+ c]Once done, reverse and print the stack as the topological sort result.
 
 # PROGRAM:
 ```
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 ```
 # OUTPUT:
-![image](https://github.com/user-attachments/assets/20fd3f04-2182-4c5d-8c24-7260c9f76d60)
+![image](https://github.com/user-attachments/assets/7abf918a-a5ac-4424-a1ea-19472752b8d3)
 
 # RESULT:
 Thus the program to perform topological sorting of a Directed Acyclic Graph (DAG)was successfully executed.
