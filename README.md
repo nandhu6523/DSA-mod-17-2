@@ -1,4 +1,5 @@
-# DSA-mod-17-2
+# Data Structures Using Python-mod-17-2
+
 # AIM:
  To write a Python program to perform topological sorting of a Directed Acyclic Graph (DAG).
 # ALGORITHM:
